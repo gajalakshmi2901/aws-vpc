@@ -1,0 +1,14 @@
+name="test-vpc"
+cidr="10.0.0.0/16"
+create_vpc=true
+azs=["ap-south-1a"]
+private_subnets=["10.1.2.0/24"]
+public_subnets=["10.1.1.0/24"]
+enable_nat_gateway=false
+enable_vpn_gateway=false
+enable_flow_log=false
+public_subnet_names= ["Mgmt-Subnet-1A"]
+private_subnet_names=["APP-Subnet-1A"]
+single_nat_gateway=true
+nat_name="VF-NAT"
+igw_name="VF-IGW"
